@@ -4,6 +4,9 @@ read a
 if [ $a -lt 10000 ];
 then
         echo "no tax"
+elif [ $a -eq 10000 ];
+then
+	echo "2% tax"
 elif [ $a -gt 10000 -a $a -le 25000 ];
 then
         echo "5% tax"
